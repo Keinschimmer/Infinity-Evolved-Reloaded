@@ -88,8 +88,8 @@ mods.avaritia.ExtremeCrafting.addShaped("EU2_Creative_Mill", <extrautils2:passiv
     ]);
 
 #Creative Jetpack (Simple Jetpacks 2)
-val full_jetplate = <simplyjetpacks:itemjetpack:24>.withTag({Energy: 50000000, JetpackParticle: 0});
-val full_darkjetplate = <simplyjetpacks:itemjetpack:15>.withTag({Energy: 60000000, JetpackParticle: 0});
+val full_jetplate = <simplyjetpacks:itemjetpack:24>;
+val full_darkjetplate = <simplyjetpacks:itemjetpack:15>;
 val CJetpack = <simplyjetpacks:itemjetpack>.withTag({Energy: 200000, JetpackParticle: 0});
 
 mods.avaritia.ExtremeCrafting.addShaped("SimpleJetpack2_Creative_Jetpack", CJetpack, [
@@ -103,7 +103,6 @@ mods.avaritia.ExtremeCrafting.addShaped("SimpleJetpack2_Creative_Jetpack", CJetp
     [null, <thermaldynamics:duct_0:5>, null, null, null, null, null, <thermaldynamics:duct_0:5>, null],
     [<thermaldynamics:duct_0:5>, <simplyjetpacks:metaitemmods:11>, <thermaldynamics:duct_0:5>, null, null, null, <thermaldynamics:duct_0:5>, <simplyjetpacks:metaitemmods:24>, <thermaldynamics:duct_0:5>]
     ]);
-
 #Creative Tool Modifier (Tinkers Construct)
 mods.avaritia.ExtremeCrafting.addShaped("TC_Creative_Tool_Modifier", <tconstruct:materials:50>, [
     [<minecraft:nether_star>, <plustic:mirionblock>, <ore:cast>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <ore:cast>, <plustic:mirionblock>, <minecraft:nether_star>],
